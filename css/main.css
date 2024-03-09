@@ -1,0 +1,5 @@
+/* Setting the maximum width of the container to 1200px*/
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}

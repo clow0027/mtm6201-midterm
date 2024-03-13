@@ -11,11 +11,25 @@ html{
     background-color: white;
 }
 
-nav ul li{
-    list-style: none;
-    display: block;
-}
-
 header{
-
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 20px 50px;
 }
+
+#sitetitle{
+    margin-right: auto;
+  }
+  
+header ul {
+      list-style: none;
+      display: inline-block;
+      padding: 0 20px;
+  }
+  
+header a {
+      text-decoration: none;
+      color: black;
+  }
+  

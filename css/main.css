@@ -45,23 +45,29 @@ header a {
     text-decoration: none;
     color: black;
     background-color: none;
+    font-weight: semi-bold;
 }
 
 header a:visited {
     text-decoration: inherit;
     color: inherit;
     background-color: inherit;
+    font-weight: semi-bold;
 }
 
 header a:hover {
     text-decoration: inherit;
     color: white;
     background-color: black;
-    font-weight: bold;
+    font-weight: semi-bold;
     padding: 1rem;
 }
 
 header a:active {
-    font-weight: bolder;
+    text-decoration: inherit;
+    color: white;
+    background-color: black;
+    font-weight: semi-bold;
+    padding: 1rem;
 
 }

@@ -1,4 +1,9 @@
-/* Setting the maximum width of the container to 1200px*/
+html{
+    font-family: poppins;
+    font-size: 16px;
+}
+
+/* Setting the maximum width of the container to 1200px, the background color, the padding, and the margin*/
 .container {
     max-width: 1200px;
     margin: 0 auto;

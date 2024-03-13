@@ -1,5 +1,6 @@
 html {
-    font-family: poppins;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
     font-size: 16px;
 }
 
@@ -7,7 +8,6 @@ html {
 .container {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 1em;
     background-color: white;
 }
 
@@ -15,7 +15,7 @@ header {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    padding: 20px 50px;
+    padding: 1em 2em;
 }
 
 #sitetitle {
@@ -25,7 +25,8 @@ header {
 header li {
     list-style: none;
     display: inline-block;
-    padding: 0 20px;
+    padding: 1em;
+    font-size: 1.25rem;
   }
   
 header a {

@@ -81,3 +81,9 @@ header a:active {
     width: 100%;
     height: 500px; 
 }
+
+.bannermodel{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}

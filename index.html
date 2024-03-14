@@ -14,6 +14,14 @@
 
 <body id="top">
     <div class="container">
+         <!-- Adds skip links with ARIA labels -->
+        <ul class="skip-links" role="navigation">
+            <li><a href="#nav" aria-label="Skip to main navigation">Skip to main nav</a></li>
+            <li><a href="#main" aria-label="Skip to main content">Skip to main content</a></li>
+            <li><a href="#newarrivals" aria-label="Skip to new arrivals">Skip to new arrivals</a></li>
+            <li><a href="#bestsellers" aria-label="Skip to best sellers">Skip to best sellers</a></li>
+            
+        </ul>
         <!-- Adds header with ARIA role -->
         <header class="navbar" role="banner">
             <!-- Logo and Site Title -->
@@ -23,7 +31,7 @@
             </h1>
             <!-- Nav List -->
             <!-- Adds nav with ARIA role -->
-            <nav class="navlist" role="navigation">
+            <nav id="nav" class="navlist" role="navigation">
                 <ul>
                     <li><a href="index.html" aria label="takes you to the website's home page" class="current">Home</a> </li>
                     <li><a href="shop.html" aria label="takes you to the website's shopping page">Shop</a></li>
@@ -32,7 +40,7 @@
             </nav>
         </header>
             <!-- Adds main with ARIA role and schema -->
-        <main role="main">
+        <main id="main" role="main">
             <div class="homebanner" itemprop="mainContentOfPage">
                 <img src="images/bannermodel.png" alt="happy female model" class="bannermodel" role="img" aria-label="happy female model">
                 <h1 role="heading">
@@ -53,7 +61,7 @@
                 <img src="images/logos.png" alt="branding logos" role="img" aria-label="branding logos">
             </div>
 
-            <h2 role="heading">
+            <h2 id="newarrivals" role="heading">
                 New Arrivals
             </h2>
 
@@ -105,7 +113,7 @@
                     <button type="button" class="shopnow" role="button">Shop Now</button>
                 </a>
             </div>
-            <h2 role="heading">
+            <h2 id="bestsellers" role="heading">
                 Best Sellers
             </h2>
             <div class="bestsellers">

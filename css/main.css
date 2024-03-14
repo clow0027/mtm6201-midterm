@@ -50,6 +50,8 @@ header h1 {
     margin-right: auto;
 }
  
+/* NAVIGATION */
+
 /* LoVe HAte
     a:link
     a:visited
@@ -107,11 +109,12 @@ header a:active {
     width: 100%;
     height: 500px;
 }
-
-.bannermodel {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
+/* Adding my first noticeable animation (this one is without the animation tag) */
+.unique:hover {
+    background-color: #E6C744;
+    padding: inherit;
+    transform: scale(1.25);
+    transition: transform 1.5s;
 }
 
 /* yellow = #E6C744  grey = #C2C8DA */

@@ -1,4 +1,6 @@
 /**************************GLOBAL STYLES*********************************/
+
+/****************INDEX/HOME PAGE********************/
 html {
     font-family: "Poppins", sans-serif;
     font-style: normal;
@@ -118,3 +120,9 @@ header a:active {
 }
 
 /* yellow = #E6C744  grey = #C2C8DA */
+
+/************* CONTACT PAGE **************/
+.contactform {
+    width: 100%;
+
+}

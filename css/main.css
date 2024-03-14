@@ -1,15 +1,18 @@
+/**************************GLOBAL STYLES*********************************/
 html {
     font-family: "Poppins", sans-serif;
     font-style: normal;
     font-size: 16px;
 }
 
-/* Setting the maximum width of the container to 1200px, the background color, the padding, and the margin*/
+/* CONTAINER */
 .container {
     max-width: 1200px;
     margin: 0 auto;
     background-color: white;
 }
+
+/* SKIP LINKS */
 /* Fixes list style of skip links */
 .skip-links {
     list-style: none;
@@ -29,7 +32,8 @@ html {
   .skip-links a:focus{
     top:0;
   }
-  
+
+/* HEADER */
 header {
     display: flex;
     justify-content: flex-end;
@@ -91,7 +95,7 @@ header a:active {
 
 }
 
-/* Home Banner */
+/* HOME BANNER */
 /* Background solid rectangle */
 .homebanner {
     border-radius: 15px;

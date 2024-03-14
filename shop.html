@@ -13,6 +13,15 @@
 </head>
 <body id="top">
     <div class="container">
+         <!-- Adds skip links with ARIA labels -->
+         <ul class="skip-links" role="navigation">
+            <li><a href="#nav" aria-label="Skip to main navigation">Skip to main nav</a></li>
+            <li><a href="#main" aria-label="Skip to main content">Skip to main content</a></li>
+            <li><a href="#hoodiesandsweaters" aria-label="Skip to hoodies and sweaters">Skip to hoodies and sweaters</a></li>
+            <li><a href="#coatsandjackets" aria-label="Skip to coast and jackets">Skip to coats and jackets</a></li>
+            <li><a href="#hoodiesandsweaters" aria-label="Skip to hoodies and sweaters">Skip to hoodies and sweaters</a></li>
+            <li><a href="#footer" aria-label="Skip to footer">Skip to footer</a></li>
+        </ul>
          <!-- Adds header with ARIA role -->
         <header class="navbar" role="banner">
             <!-- Logo and Site Title -->
@@ -22,7 +31,7 @@
             </h1>
             <!-- Nav List -->
             <!-- Adds nav with ARIA role -->
-            <nav class="navlist" role="navigation">
+            <nav id="nav" class="navlist" role="navigation">
                 <ul>
                     <li><a href="index.html" aria label="takes you to the website's home page">Home</a> </li>
                     <li><a href="shop.html" class="current" aria label="takes you to the website's shopping page">Shop</a></li>
@@ -31,7 +40,7 @@
             </nav>
         </header>
         <!-- Adds main with ARIA role and schema-->
-        <main role="main" itemprop="mainContentOfPage">
+        <main id="main" role="main" itemprop="mainContentOfPage">
             <div class="shopbanner">
                 <img src="images/shopbanner.jpg" alt="happy models in a circle looking down at camera" class="shopbanner" role="img" aria-label="happy models in a circle looking down at camera">
                 <h1 role="heading">
@@ -46,7 +55,7 @@
                 </p>
             </div>
 
-            <h2 role="heading">
+            <h2 id="hoodiesandsweaters" role="heading">
                 Hoodies and Sweaters
             </h2>
 
@@ -73,7 +82,7 @@
                 </div>
             </div>
 
-            <h2 role="heading">
+            <h2 id="coatsandjackets" role="heading">
                 Coats and Jackets
             </h2>
 
@@ -100,7 +109,7 @@
                 </div>
             </div>
 
-            <h2 role="heading">
+            <h2 id="teesandtanks" role="heading">
                 Tees and Tanks
             </h2>
 
@@ -129,7 +138,7 @@
 
         </main>
         <!-- Adds footer with ARIA role -->
-        <footer role="contentinfo">
+        <footer id="footer" role="contentinfo">
             <h2 role="heading">
                 Fashion
             </h2>

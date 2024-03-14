@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" itemscope itemtype="http://schema.org/WebPage">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,15 +10,18 @@
     <!-- Link to Google Font "Poppins" -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
 </head>
+
 <body id="top">
     <div class="container">
         <ul class="skip-links">
             <li><a href="#nav" aria-label="Skip to main navigation">Skip to main nav</a></li>
             <li><a href="#main" aria-label="Skip to main content">Skip to main content</a></li>
         </ul>
-         <!-- Adds header with ARIA role -->
+        <!-- Adds header with ARIA role -->
         <header class="navbar" role="banner">
             <!-- Logo and Site Title -->
             <img src="images/navlogo.png" alt="companylogo" class="navlogo" role="img" aria-label="site's logo">
@@ -30,7 +34,8 @@
                 <ul>
                     <li><a href="index.html" aria label="takes you to the website's home page">Home</a> </li>
                     <li><a href="shop.html" aria label="takes you to the website's shopping page">Shop</a></li>
-                    <li><a href="contact.html" class="current" aria label="takes you to the website's contact page">Contact Us</a></li>
+                    <li><a href="contact.html" class="current" aria
+                            label="takes you to the website's contact page">Contact Us</a></li>
                 </ul>
             </nav>
         </header>
@@ -38,24 +43,24 @@
         <main role="main" itemprop="mainContentOfPage">
             <div class="contactus">
                 <!-- Making a contact form using ARIA rules -->
-               <h1 role="heading">Contact Us </h1>
-               <form id="form" action="thanks.html" role="form" aria-label="Contact Form">
-                 <label for="fullname">Full Name</label>
-                 <input type="text" id="fullname" placeholder="Full Name">
-       
-                 <label for="email">Email</label>
-                 <input type="text" id="email" placeholder="Email">
-       
-                 <label for="subject">Subject</label>
-                 <input type="text" id="subject" placeholder="Subject">
-       
-                 <label for="message">Your Message</label>
-                 <!-- Adds placeholder text to textarea -->
-                <textarea placeholder="Type you message here."></textarea>
-                 <button type="submit" role="button">Send</button>
-               </form>
-             </div>
-            
+                <h1 role="heading">Contact Us </h1>
+                <form id="form" action="thanks.html" role="form" aria-label="Contact Form" class="contactform">
+                    <label for="fullname" class="labelname">Full Name</label>
+                    <input type="text" id="fullname" placeholder="Full Name">
+
+                    <label for="email" class="labelemail">Email</label>
+                    <input type="text" id="email" placeholder="Email">
+
+                    <label for="subject" class="labelsubject">Subject</label>
+                    <input type="text" id="subject" placeholder="Subject">
+
+                    <label for="message" class="labelmessage">Your Message</label>
+                    <!-- Adds placeholder text to textarea -->
+                    <textarea placeholder="Type you message here."></textarea>
+                    <button type="submit" role="button" class="sendbtn">Send</button>
+                </form>
+            </div>
+
         </main>
         <!-- Adds footer with ARIA role -->
         <footer role="contentinfo">
@@ -67,7 +72,8 @@
             <p>
                 Complete your look with awesome clothes from us.
             </p>
-            <img src="images/footerlogos.png" alt="social media icons for facebook, instagram, twitter, and linkedin" role="img" aria-label="social media icons for facebook, instagram, twitter, and linkedin">
+            <img src="images/footerlogos.png" alt="social media icons for facebook, instagram, twitter, and linkedin"
+                role="img" aria-label="social media icons for facebook, instagram, twitter, and linkedin">
             <div class="footerlinks">
                 <p>
                     Company
@@ -78,7 +84,7 @@
                     <li>Support</li>
                     <li>Careers</li>
                 </ul>
-                
+
                 <p>
                     Quick Links
                 </p>
@@ -95,10 +101,11 @@
                     <li>Terms and Conditions</li>
                     <li>Privacy Policy</li>
                 </ul>
-                
+
             </div>
         </footer>
-        
+
     </div>
 </body>
+
 </html>

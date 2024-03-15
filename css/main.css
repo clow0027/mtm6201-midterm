@@ -212,6 +212,7 @@ header a:active {
     border-radius: 4px;
 }
 
+
 /* JOIN NOW SECTION  */
 .joinnow {
     background-color: #E6C744;
@@ -242,37 +243,37 @@ header a:active {
     grid-template-rows: repeat(5,1fr);
     gap: 5px; 
 }
-
-img {
-    grid-row: 1 / span 5; /* Span all 5 rows */
-    grid-column: 1; /* First column */
+/* Places Img to be in column 1, spanning all rows */
+.paydaysale :nth-child(1) {
+    grid-row: 1 / span 5; 
+    grid-column: 1; 
+}
+/* Places 'payday' to be in column 2, row 1 */
+.paydaysale :nth-child(2) {
+    grid-row: 1; 
+    grid-column: 2; 
+}
+/* Places 'sale now' to be in column 2, row 2 */
+.paydaysale :nth-child(3)  {
+    grid-row: 2; 
+    grid-column: 2; 
+}
+/* Places p (1) to be in column 2, row 3 */
+.paydaysale :nth-child(4)  {
+    grid-row: 3; 
+    grid-column: 2; 
+}
+/* Places p (2) to be in column 2, row 4 */
+.paydaysale :nth-child(5)  {
+    grid-row: 4; 
+    grid-column: 2; 
+}
+/* Places button to be in column 2, row 5 */
+.paydaysale :nth-child(6)  {
+    grid-row: 5; 
+    grid-column: 2; 
 }
 
-h1:nth-of-type(1) {
-    grid-row: 1; /* Row 1 */
-    grid-column: 2; /* Column 2 */
-}
-
-h1:nth-of-type(2) {
-    grid-row: 2; /* Row 2 */
-    grid-column: 2; /* Column 2 */
-}
-
-p:nth-of-type(1) {
-    grid-row: 3; /* Row 3 */
-    grid-column: 2; /* Column 2 */
-}
-
-p:nth-of-type(2) {
-    grid-row: 4; /* Row 4 */
-    grid-column: 2; /* Column 2 */
-}
-
-p:nth-of-type(3) {
-    grid-row: 5; /* Row 5 */
-    grid-column: 2; /* Column 2 */
-}
-/* yellow = #E6C744  grey = #C2C8DA */
 
 /************* SHOP PAGE **************/
 /* SHOP BANNER */

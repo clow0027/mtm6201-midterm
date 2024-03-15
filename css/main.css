@@ -139,6 +139,16 @@ header a:active {
     justify-content: space-around;
 }
 
+.coatsandjackets{
+    display: flex;
+    justify-content: space-around;
+}
+
+.teesandtanks{
+    display: flex;
+    justify-content: space-around;
+}
+
 /************* CONTACT PAGE **************/
 .contactus{
     background-color: #E6C744;

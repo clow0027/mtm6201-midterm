@@ -124,11 +124,13 @@ header a:active {
 .newarrivals{
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .bestsellers{
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 /* yellow = #E6C744  grey = #C2C8DA */
 
@@ -146,16 +148,19 @@ header a:active {
 .hoodiesandsweaters{
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .coatsandjackets{
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .teesandtanks{
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 /************* CONTACT PAGE **************/

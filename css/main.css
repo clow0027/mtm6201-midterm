@@ -120,6 +120,20 @@ header a:active {
     transform: scale(1.25);
     transition: transform 1.5s;
 }
+
+/* Logo bar */
+.logobar {
+    background-color: #E6C744;
+    padding: 1rem;
+}
+
+.logobar img {
+    display: flex;
+    align-items: center;
+}
+
+
+
 /* Adds flex to make content in a single row, evenly spaced like in the figma design */
 .newarrivals{
     display: flex;

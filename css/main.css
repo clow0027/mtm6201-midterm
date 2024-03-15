@@ -116,7 +116,7 @@ header a:active {
     /* Sets Up Grid Layout */
     display: grid;
     /* Six equal rows */
-    grid-template-rows: repeat(6, 1fr);
+    grid-template-rows: repeat(6, 100px);
     /* Two equal columns */
     grid-template-columns: 1fr 1fr; 
     gap: 5px; 

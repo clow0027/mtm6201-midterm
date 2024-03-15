@@ -140,18 +140,18 @@ header a:active {
 
 
 /* Adds flex to make content in a single row, evenly spaced like in the figma design */
-.newarrivals{
+.newarrivals {
     display: flex;
     justify-content: space-around;
 }
 
-.bestsellers{
+.bestsellers {
     display: flex;
     justify-content: space-around;
 }
 
 /* SHOP NOW BUTTON */
-.shopnow{
+.shopnow {
     font-weight: bolder;
     font-size: 18px;
     background-color: #E6C744;
@@ -162,7 +162,7 @@ header a:active {
 }
 
 /* JOIN NOW SECTION  */
-.joinnow{
+.joinnow {
     background-color: #E6C744;
     padding: 4em;
     display: flex;
@@ -171,7 +171,7 @@ header a:active {
     align-items: center;
 }
 
-.joinnow button {
+.joinnow form {
     font-weight: bolder;
     font-size: 18px;
     background-color: white;
@@ -213,6 +213,11 @@ header a:active {
     display: flex;
     justify-content: space-around;
     align-items: center;
+}
+.yellow{
+    background-color: #E6C744;
+    padding: 0.5rem;
+    width: fit-content;
 }
 
 /************* CONTACT PAGE **************/

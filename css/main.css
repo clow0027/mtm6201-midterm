@@ -121,6 +121,10 @@ header a:active {
     transition: transform 1.5s;
 }
 
+.newarrivals{
+    display: flex;
+    justify-content: space-around;
+}
 /* yellow = #E6C744  grey = #C2C8DA */
 
 /************* SHOP PAGE **************/

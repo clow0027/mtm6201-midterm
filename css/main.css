@@ -120,10 +120,15 @@ header a:active {
     transform: scale(1.25);
     transition: transform 1.5s;
 }
-
+/* Adds flex to make content in a single row, evenly spaced like in the figma design */
 .newarrivals{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+}
+
+.bestsellers{
+    display: flex;
+    justify-content: space-between;
 }
 /* yellow = #E6C744  grey = #C2C8DA */
 
@@ -140,17 +145,17 @@ header a:active {
 /* Adds flex to make content in a single row, evenly spaced like in the figma design */
 .hoodiesandsweaters{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .coatsandjackets{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .teesandtanks{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 /************* CONTACT PAGE **************/

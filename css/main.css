@@ -141,14 +141,12 @@ header a:active {
 /* Adds flex to make content in a single row, evenly spaced like in the figma design */
 .newarrivals{
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: space-around;
 }
 
 .bestsellers{
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: space-around;
 }
 /* yellow = #E6C744  grey = #C2C8DA */
 

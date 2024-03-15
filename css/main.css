@@ -102,6 +102,8 @@ header a:active {
 
 }
 
+/************* HOME PAGE **************/
+
 /* HOME BANNER */
 /* Background solid rectangle */
 .homebanner {
@@ -121,6 +123,7 @@ header a:active {
 
 /* yellow = #E6C744  grey = #C2C8DA */
 
+/************* SHOP PAGE **************/
 /* SHOP BANNER */
 /* Background solid rectangle */
 .shopbanner {

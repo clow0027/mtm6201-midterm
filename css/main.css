@@ -167,9 +167,10 @@ p {
 /* Adding my first noticeable animation (this one is without the animation tag) */
 .unique:hover {
     background-color: #E6C744;
-    padding: inherit;
+    padding: 1em;
     transform: scale(1.25);
     transition: transform 1.5s;
+
 }
 
 /* Logo bar */

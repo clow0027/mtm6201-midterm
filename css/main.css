@@ -133,7 +133,7 @@ header a:active {
     width: 100%;
     height: 500px;
 }
-
+/* Adds flex to make content in a single row, evenly spaced like in the figma design */
 .hoodiesandsweaters{
     display: flex;
     justify-content: space-around;

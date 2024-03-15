@@ -113,7 +113,51 @@ header a:active {
     padding: 20px;
     width: 100%;
     height: 500px;
+    /* Sets Up Grid Layout */
+    display: grid;
+    /* Six equal rows */
+    grid-template-rows: repeat(6, 1fr);
+    /* Two equal columns */
+    grid-template-columns: 1fr 1fr; 
+    gap: 5px; 
 }
+/* Places Image in Col 2, spanning rows 2 - 6 */
+.bannermodel {
+    grid-row: 2 / span 6; 
+    grid-column: 2; 
+}
+/* Places 'Let's' in col 1 row 1 */
+h1:nth-of-type(1) {
+    grid-row: 1; 
+    grid-column: 1; 
+}
+/* Places 'Explore' in col 1 row 2 */
+h1:nth-of-type(2) {
+    grid-row: 2; 
+    grid-column: 1; 
+}
+/* Places 'Unique' in col 1 row 3 */
+.unique {
+    grid-row: 3; 
+    grid-column: 1; 
+}
+/* Places 'Clothes.' in col 1 row 4 */
+h1:nth-of-type(4) {
+    grid-row: 4; 
+    grid-column: 1; 
+}
+/* Places p in col 1 row 5 */
+p {
+    grid-row: 5; 
+    grid-column: 1; 
+}
+/* Places button in col 1 row 6 */
+.shopnow {
+    grid-row: 6; 
+    grid-column: 1; 
+}
+
+
 /* Adding my first noticeable animation (this one is without the animation tag) */
 .unique:hover {
     background-color: #E6C744;

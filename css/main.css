@@ -170,8 +170,8 @@ header a:active {
     justify-content: center;
     align-items: center;
 }
-/* SEND BUTTON */
-.send{
+
+.joinnow button {
     font-weight: bolder;
     font-size: 18px;
     background-color: white;
@@ -181,6 +181,7 @@ header a:active {
     border-radius: 4px;
     margin-bottom: 1em;
 }
+
 
 
 /* yellow = #E6C744  grey = #C2C8DA */

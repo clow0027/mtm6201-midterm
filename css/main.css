@@ -134,6 +134,11 @@ header a:active {
     height: 500px;
 }
 
+.hoodiesandsweaters{
+    display: flex;
+    justify-content: space-around;
+}
+
 /************* CONTACT PAGE **************/
 .contactus{
     background-color: #E6C744;

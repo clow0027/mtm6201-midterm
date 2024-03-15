@@ -163,19 +163,19 @@ header a:active {
 /* Adds flex to make content in a single row, evenly spaced like in the figma design */
 .hoodiesandsweaters{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 
 .coatsandjackets{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 
 .teesandtanks{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 

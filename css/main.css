@@ -121,6 +121,16 @@ header a:active {
 
 /* yellow = #E6C744  grey = #C2C8DA */
 
+/* SHOP BANNER */
+/* Background solid rectangle */
+.shopbanner {
+    border-radius: 15px;
+    background: #eceded;
+    padding: 20px;
+    width: 100%;
+    height: 500px;
+}
+
 /************* CONTACT PAGE **************/
 .contactus{
     background-color: #E6C744;

@@ -125,11 +125,15 @@ header a:active {
 .logobar {
     background-color: #E6C744;
     padding: 1rem;
+    width: 100%;
+    margin-top: 2em;
+    margin-bottom: 2em;
 }
 
 .logobar img {
-    display: flex;
-    align-items: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 

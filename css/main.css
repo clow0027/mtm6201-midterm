@@ -122,43 +122,43 @@ header a:active {
     /* Sets Up Grid Layout */
     display: grid;
     /* Six equal rows */
-    grid-template-rows: repeat(6, 80px);
+    grid-template-rows: repeat(6, 1fr);
     /* Two equal columns */
     grid-template-columns: 1fr 1fr; 
     gap: 5px; 
 }
 /* Places Image in Col 2, spanning rows 2 - 6 */
-.bannermodel {
+.homebanner :nth-child(1) {
     grid-row: 2 / span 6; 
     grid-column: 2; 
 }
 /* Places 'Let's' in col 1 row 1 */
-h1:nth-of-type(1) {
+.homebanner :nth-child(2) {
     grid-row: 1; 
     grid-column: 1; 
 }
 /* Places 'Explore' in col 1 row 2 */
-h1:nth-of-type(2) {
+.homebanner :nth-child(3) {
     grid-row: 2; 
     grid-column: 1; 
 }
 /* Places 'Unique' in col 1 row 3 */
-h1:nth-of-type(3) {
+.homebanner :nth-child(4) {
     grid-row: 3; 
     grid-column: 1; 
 }
 /* Places 'Clothes.' in col 1 row 4 */
-h1:nth-of-type(4) {
+.homebanner :nth-child(5){
     grid-row: 4; 
     grid-column: 1; 
 }
 /* Places p in col 1 row 5 */
-p {
+.homebanner :nth-child(6) {
     grid-row: 5; 
     grid-column: 1; 
 }
 /* Places button in col 1 row 6 */
-.shopnow {
+.homebanner :nth-child(7) {
     grid-row: 6; 
     grid-column: 1; 
 }
@@ -233,8 +233,45 @@ p {
     margin-bottom: 1em;
 }
 
+/* PAYDAY SALE NOW SECTION */
+.paydaysale{
+    background-color: #E6C744;
+    /* SETS UP GRID WITH TWO COLUMNS AND FIVE EQUAL ROWS*/
+    display: grid;
+    grid-template-columns: 50% 50%; 
+    grid-template-rows: repeat(5,1fr);
+    gap: 5px; 
+}
 
+img {
+    grid-row: 1 / span 5; /* Span all 5 rows */
+    grid-column: 1; /* First column */
+}
 
+h1:nth-of-type(1) {
+    grid-row: 1; /* Row 1 */
+    grid-column: 2; /* Column 2 */
+}
+
+h1:nth-of-type(2) {
+    grid-row: 2; /* Row 2 */
+    grid-column: 2; /* Column 2 */
+}
+
+p:nth-of-type(1) {
+    grid-row: 3; /* Row 3 */
+    grid-column: 2; /* Column 2 */
+}
+
+p:nth-of-type(2) {
+    grid-row: 4; /* Row 4 */
+    grid-column: 2; /* Column 2 */
+}
+
+p:nth-of-type(3) {
+    grid-row: 5; /* Row 5 */
+    grid-column: 2; /* Column 2 */
+}
 /* yellow = #E6C744  grey = #C2C8DA */
 
 /************* SHOP PAGE **************/

@@ -216,6 +216,23 @@ header a:active {
 /* PAYDAY SALE NOW SECTION */
 .paydaysale{
     background-color: #E6C744;
+    /* Uses flex to order banner content */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* Uses grid to separate content into two columns */
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 1fr;
+}
+.paytext{
+    grid-column: 1;
+    grid-row: 1;
+    padding-left: 9em;
+}
+.paytext button{
+    background-color: #eceded;
+    
 }
 
 

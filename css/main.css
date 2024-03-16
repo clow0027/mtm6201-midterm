@@ -191,6 +191,23 @@ header a:active {
     border-radius: 4px;
 }
 
+/* MOBILE APP SECTION */
+.mobileapp{
+    /* Uses flex to order banner content */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* Uses grid to separate content into two columns */
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 1fr;
+}
+
+.mobiletext{
+    grid-column: 1;
+    grid-row: 1;
+    padding-left: 9em;
+}
 
 /* JOIN NOW SECTION  */
 .joinnow {

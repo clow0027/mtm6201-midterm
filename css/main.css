@@ -392,8 +392,6 @@ input[type=text], select, textarea{
     }
   }
 
-
-/* FOOTER */
 /********* FOOTER ***********/
 footer {
     background-color: black;
@@ -403,23 +401,17 @@ footer {
     display: grid;
     grid-template-columns: 50% 50%;
     grid-template-rows: 1fr 1fr;
+    
 }
-
+/* Styling Links */
 footer a {
     color: black;
 }
-
 footer ul {
     list-style: none;
 }
 
-.quicklinks {
-    grid-column: 1;
-    grid-row: 2;
-
-}
-
-/* Back to Top Button */
+/* BACK TO TOP BUTTON */
 /* LoVe HAte 
 Link 
 Visited
@@ -432,10 +424,27 @@ Active */
     text-decoration: none;
     width: fit-content;
     height: fit-content;
-    grid-column: 2;
-    grid-row: 1;
+    padding: 10px; 
 }
 
-  
+.left-section {
+    display: flex;
+    align-items: center;
+    
+}
 
+.footerheader {
+    flex: 1;
+    
+}
+
+
+.footerlinks {
+    display: flex;
+}
+
+.company, .quicklinks, .legal {
+    display: flex;
+    flex-direction: column;
+}
 

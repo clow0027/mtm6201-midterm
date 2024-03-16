@@ -355,13 +355,15 @@ input[type=text], select, textarea{
 
 
 /* FOOTER */
-footer{
-    background-color: black;
-    padding: 3em;
-}
-
+/********* FOOTER ***********/
 footer {
+    background-color: black;
     color: white;
+    padding: 3em;
+    display: flex;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 1fr 1fr;
 }
 
 footer a {
@@ -370,6 +372,12 @@ footer a {
 
 footer ul {
     list-style: none;
+}
+
+.quicklinks {
+    grid-column: 1;
+    grid-row: 2;
+
 }
 
 /* Back to Top Button */
@@ -383,6 +391,10 @@ Active */
     background-color: #E6C744;
     padding: 1em;
     text-decoration: none;
+    width: fit-content;
+    height: fit-content;
+    grid-column: 2;
+    grid-row: 1;
 }
 
   

@@ -54,7 +54,7 @@ header h1 {
     font-weight: bolder;
     padding-left: 0.25em;
 }
-
+/* Adds space between logo and site title */
 .navbar img {
     padding: 1em;
 }

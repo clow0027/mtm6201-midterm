@@ -55,6 +55,9 @@ header h1 {
     padding-left: 0.25em;
 }
 
+.navbar img {
+    padding: 1em;
+}
 #sitetitle {
     margin-right: auto;
 }

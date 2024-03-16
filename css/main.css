@@ -1,16 +1,26 @@
-/**************************GLOBAL STYLES*********************************/
-
 /****************INDEX/HOME PAGE********************/
-html {
+h1{
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+h2{
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+p{
     font-family: "Poppins", sans-serif;
     font-style: normal;
     font-size: 18px;
 }
 
-
-html h1{
-    font-size: xx-large;
-    font-weight: 900px;
+a {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-size: 18px;
 }
 
 /* CONTAINER */

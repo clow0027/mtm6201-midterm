@@ -14,11 +14,13 @@ h2{
     font-size: 30px;
 }
 
-p, a, li {
+p, a, li, button {
     font-family: "Poppins", sans-serif;
     font-style: normal;
     font-size: 18px;
 }
+
+
 
 /* CONTAINER */
 .container {
@@ -189,11 +191,13 @@ header a:active {
 
 /* SHOP NOW BUTTON */
 .shopnow {
-    font-weight: bolder;
-    font-size: 18px;
+    font-weight: bold;
     background-color: #E6C744;
     padding: 1em;
     text-decoration: none;
+    width: fit-content;
+    height: fit-content;
+    padding: 10px;
     border: none;
     border-radius: 4px;
 }
@@ -235,6 +239,7 @@ header a:active {
     border: none;
     border-radius: 4px;
     margin-bottom: 1em;
+    display: flex;
 }
 
 .emailsend {

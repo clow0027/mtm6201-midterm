@@ -24,7 +24,10 @@
         <!-- Adds header with ARIA role -->
         <header class="navbar" role="banner">
             <!-- !-- Logo and Site Title -->
-            <img src="images/navlogo.png" alt="company logo" class="navlogo" role="img" aria-label="site's logo">
+            <img srcset="images/navlogo-small.png 15w,
+            images/navlogo.png 30w" sizes="(max-width: 768px) 15px,
+            (min-width: 768px) 30px," src="images/navlogo.png" alt="company logo" class="navlogo" role="img"
+                aria-label="site's logo">
             <h2 id="sitetitle" role="heading">
                 Fashion
             </h2>
@@ -73,7 +76,13 @@
                     <p>
                         Complete your look with awesome clothes from us.
                     </p>
-                    <img src="images/footerlogos.png" alt="social media icons for facebook, instagram, twitter, and linkedin" role="img" aria-label="social media icons for facebook, instagram, twitter, and linkedin">
+                    <img 
+                    srcset="
+                    images/footerlogos-small.png 24w,
+                    images/footerlogos.png 53w"
+                    sizes="(max-width: 768px) 24px,
+                    (min-width: 768px) 53px,"
+                    src="images/footerlogos.png" alt="social media icons for facebook, instagram, twitter, and linkedin" role="img" aria-label="social media icons for facebook, instagram, twitter, and linkedin">
                 </div>
             </div>
 

@@ -196,6 +196,14 @@ header a:active {
     justify-content: space-around;
 }
 
+.newarrivals p{
+    color: black;
+}
+
+.bestsellers p{
+    color: black;
+}
+
 /* SHOP NOW BUTTON */
 .shopnow {
     font-weight: bold;

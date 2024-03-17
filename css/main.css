@@ -56,7 +56,13 @@ a{
     top:0;
   }
   /* MOBILE STYLES */
-  
+    @media screen and (max-width: 760px) {
+        /* hide logo bar to minimize unecessary content */
+        .logobar{
+            display: none;
+        }
+
+    }
 
 
 

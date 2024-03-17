@@ -1,3 +1,4 @@
+/* GLOBAL STYLES */
 /****************INDEX/HOME PAGE********************/
 h1{
     font-family: "Poppins", sans-serif;
@@ -27,15 +28,12 @@ a{
     text-decoration-color: white;
 }
 
-
-
 /* CONTAINER */
 .container {
     max-width: 1200px;
     margin: 0 auto;
     background-color: white;
 }
-
 
 /* SKIP LINKS */
 /* Fixes list style of skip links */
@@ -57,431 +55,451 @@ a{
   .skip-links a:focus{
     top:0;
   }
-
-/* HEADER */
-header {
-    margin: 0 auto;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-}
-
-header h1 {
-    font-weight: bolder;
-    padding-left: 0.25em;
-}
-/* Adds space between logo and site title */
-.navbar img {
-    padding: 1em;
-}
-#sitetitle {
-    margin-right: auto;
-}
- 
-/* NAVIGATION */
-
-/* LoVe HAte
-    a:link
-    a:visited
-    a:hover
-    a:active */
-
-header li {
-    list-style: none;
-    display: inline-block;
-    padding: 0.5em;
-    font-size: 1.25rem;
-    font-weight: semi-bold;
-    padding: 1rem;
-}
-
-header a {
-    text-decoration: none;
-    color: black;
-    background-color: none;
-    font-weight: semi-bold;
-    padding: 1rem;
-}
-
-header a:visited {
-    text-decoration: inherit;
-    color: inherit;
-    background-color: inherit;
-    font-weight: semi-bold;
-    padding: 1rem;
-}
-
-header a:hover {
-    text-decoration: inherit;
-    color: white;
-    background-color: black;
-    font-weight: semi-bold;
-    padding: 1rem;
-}
-
-header a:active {
-    text-decoration: inherit;
-    color: white;
-    background-color: black;
-    font-weight: semi-bold;
-    padding: 1rem;
-
-}
-
-/************* HOME PAGE **************/
-
-/* HOME BANNER */
-/* Background solid rectangle */
-.homebanner {
-    border-radius: 15px;
-    background: #eceded;
-    padding: 20px;
-    width: 100%;
-    height: 500px;
-    /* Uses flex to order banner content */
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    /* Uses grid to separate content into two columns */
-    display: grid;
-    grid-template-columns: 50% 50%;
-    grid-template-rows: 1fr;
-}
-/* Places content in column 1, row 1 */
-.explorenew{
-    grid-column: 1;
-    grid-row: 1;
-    padding-left: 9em;
-}
-
-/* Places content in column 2, row 1 */
-.bannermodel{
-    width: 97%;
-    grid-column: 2;
-    grid-row: 1;  
-}
-
-/* Adding my first noticeable animation (this one is without the animation tag) */
-.unique:hover {
-    background-color: #E6C744;
-    padding: 0.25rem;
-    transform: scale(1.25);
-    transition: transform 1.5s;
-
-}
-
-/* Logo bar */
-.logobar {
-    background-color: #E6C744;
-    padding: 1rem;
-    width: 100%;
-    margin-top: 2em;
-    margin-bottom: 2em;
-}
-
-.logobar img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-/* Adds flex to make content in a single row, evenly spaced like in the figma design */
-.newarrivals {
-    display: flex;
-    justify-content: space-around;
-}
-
-.bestsellers {
-    display: flex;
-    justify-content: space-around;
-}
-
-.newarrivals a{
-    color: black;
-}
-
-.bestsellers a{
-    color: black;
-}
-
-/* SHOP NOW BUTTON */
-.shopnow {
-    font-weight: bold;
-    background-color: #E6C744;
-    padding: 1em;
-    text-decoration: none;
-    color: black;
-    width: fit-content;
-    height: fit-content;
-    padding: 10px; 
-    border: none;
-    border-radius: 4px;
-}
-
-/* PAY DAY SHOP NOW BUTTON */
-.paydayshopnow{
-    font-weight: bold;
-    background-color: black;
-    color:white;
-    padding: 1em;
-    text-decoration: none;
-    width: fit-content;
-    height: fit-content;
-    padding: 10px; 
-    border: none;
-    border-radius: 4px;
-}
-
-/* MOBILE APP SECTION */
-.mobileapp{
-    /* Uses flex to order banner content */
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    /* Uses grid to separate content into two columns */
-    display: grid;
-    grid-template-columns: 50% 50%;
-    grid-template-rows: 1fr;
-}
-
-.mobiletext{
-    grid-column: 1;
-    grid-row: 1;
-    padding-left: 9em;
-}
-
-/* JOIN NOW SECTION  */
-.joinnow {
-    background-color: #E6C744;
-    padding: 4em;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.joinnow form {
-    font-weight: bolder;
-    font-size: 18px;
-    background-color: white;
-    padding: 1em;
-    text-decoration: none;
-    border: none;
-    border-radius: 4px;
-    margin-bottom: 1em;
-    display: flex;
-}
-
-.emailsend {
-    background-color: black;
-    color: white;
-    padding: 1em 2em;
-    border: none;
-    border-radius: 4px;
-    font-family: 'Poppins', sans-serif;
-    font-size: 16px;
-    font-weight: bold;
-  }
-
-/* PAYDAY SALE NOW SECTION */
-.paydaysale{
-    background-color: #E6C744;
-    /* Uses flex to order banner content */
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    /* Uses grid to separate content into two columns */
-    display: grid;
-    grid-template-columns: 50% 50%;
-    grid-template-rows: 1fr;
-}
-.paytext{
-    grid-column: 1;
-    grid-row: 1;
-    padding-left: 9em;
-}
-.paytext button{
-    background-color: #eceded;
-    
-}
-
-
-/************* SHOP PAGE **************/
-/* SHOP BANNER */
-/* Background solid rectangle */
-.shopbanner {
-    border-radius: 15px;
-    background: #eceded;
-    padding: 20px;
-    width: 100%;
-    height: 500px;
-    /* Uses flex to order banner content */
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    /* Uses grid to separate content into two columns */
-    display: grid;
-    grid-template-columns: 50% 50%;
-    grid-template-rows: 1fr;
-  }
+  /* MOBILE STYLES */
   
-  .shoptext {
-    grid-column: 1;
-    grid-row: 1;
-    padding-left: 9em;
-  }
-  
-  .shopbannerimg{
-    width: 100%;
-    grid-column: 2;
-    grid-row: 1; 
-  }
 
-/* Adds flex to make content in a single row, evenly spaced like in the figma design */
-.hoodiesandsweaters{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
 
-.coatsandjackets{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
 
-.teesandtanks{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-.yellow{
-    background-color: #E6C744;
-    padding: 0.5rem;
-    width: fit-content;
-}
-
-/************* CONTACT PAGE **************/
-.contactus{
-    background-color: #E6C744;
-    padding: 4em;
-}
-
-.contactus h1{
-    font-size: 2em;
-}
-
-input[type=text], select, textarea{
-    width: 100%;
-    padding: 1em;
-    border: 4px solid #eceded;
-    border-radius: 4px;
-    box-sizing: border-box;
-    margin-top: 6px;
-    margin-bottom: 16px;
-    resize: vertical;
-    font-family: 'Poppins', sans-serif;
-    font-weight: semi-bold;
-    font-size: 16px;
-}
-
-.contactform label{
-    font-family: 'Poppins', sans-serif;
-    font-size: 16px;
-    font-weight: bold;
-}
-
-.sendbtn {
-    background-color: white;
-    color: black;
-    padding: 1em 2em;
-    border: none;
-    border-radius: 4px;
-    font-family: 'Poppins', sans-serif;
-    font-size: 16px;
-    font-weight: bold;
-    animation: wiggle 2s linear infinite;
-  }
-/* Second animation, using animation tag */
-  @keyframes wiggle {
-    0%, 7% {
-      transform: rotateZ(0);
+  /* DESKTOP STYLES */
+  @media screen and (min-width: 760px) {
+    /* HEADER */
+    header {
+        margin: 0 auto;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
     }
-    15% {
-      transform: rotateZ(-10deg);
-    }
-    20% {
-      transform: rotateZ(10deg);
-    }
-    25% {
-      transform: rotateZ(-10deg);
-    }
-    30% {
-      transform: rotateZ(5deg);
-    }
-    35% {
-      transform: rotateZ(-5deg);
-    }
-    40%, 100% {
-      transform: rotateZ(0);
-    }
-  }
 
-/********* FOOTER ***********/
-footer {
-    background-color: black;
-    color: white;
-    padding: 3em;
-    display: flex;
-    display: grid;
-    grid-template-columns: 50% 50%;
-    grid-template-rows: 1fr 1fr;
+    header h1 {
+        font-weight: bolder;
+        padding-left: 0.25em;
+    }
+    /* Adds space between logo and site title */
+    .navbar img {
+        padding: 1em;
+    }
+    #sitetitle {
+        margin-right: auto;
+    }
     
-}
-/* Styling Links */
-footer a {
-    color: black;
-}
-footer ul {
-    list-style: none;
-}
+    /* NAVIGATION */
 
-/* BACK TO TOP BUTTON */
-/* LoVe HAte 
-Link 
-Visited
-Hover 
-Active */
-.backtop {
-    font-weight: bold;
-    background-color: #E6C744;
-    padding: 1em;
-    text-decoration: none;
-    width: fit-content;
-    height: fit-content;
-    padding: 10px; 
-    border: none;
-    border-radius: 4px;
-}
+    /* LoVe HAte
+        a:link
+        a:visited
+        a:hover
+        a:active */
 
-.left-section {
-    display: flex;
-    align-items: center;
+    header li {
+        list-style: none;
+        display: inline-block;
+        padding: 0.5em;
+        font-size: 1.25rem;
+        font-weight: semi-bold;
+        padding: 1rem;
+    }
+
+    header a {
+        text-decoration: none;
+        color: black;
+        background-color: none;
+        font-weight: semi-bold;
+        padding: 1rem;
+    }
+
+    header a:visited {
+        text-decoration: inherit;
+        color: inherit;
+        background-color: inherit;
+        font-weight: semi-bold;
+        padding: 1rem;
+    }
+
+    header a:hover {
+        text-decoration: inherit;
+        color: white;
+        background-color: black;
+        font-weight: semi-bold;
+        padding: 1rem;
+    }
+
+    header a:active {
+        text-decoration: inherit;
+        color: white;
+        background-color: black;
+        font-weight: semi-bold;
+        padding: 1rem;
+
+    }
+
+    /************* HOME PAGE **************/
+
+    /* HOME BANNER */
+    /* Background solid rectangle */
+    .homebanner {
+        border-radius: 15px;
+        background: #eceded;
+        padding: 20px;
+        width: 100%;
+        height: 500px;
+        /* Uses flex to order banner content */
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        /* Uses grid to separate content into two columns */
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 1fr;
+    }
+    /* Places content in column 1, row 1 */
+    .explorenew{
+        grid-column: 1;
+        grid-row: 1;
+        padding-left: 9em;
+    }
+
+    /* Places content in column 2, row 1 */
+    .bannermodel{
+        width: 97%;
+        grid-column: 2;
+        grid-row: 1;  
+    }
+
+    /* Adding my first noticeable animation (this one is without the animation tag) */
+    .unique:hover {
+        background-color: #E6C744;
+        padding: 0.25rem;
+        transform: scale(1.25);
+        transition: transform 1.5s;
+
+    }
+
+    /* Logo bar */
+    .logobar {
+        background-color: #E6C744;
+        padding: 1rem;
+        width: 100%;
+        margin-top: 2em;
+        margin-bottom: 2em;
+    }
+
+    .logobar img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /* Adds flex to make content in a single row, evenly spaced like in the figma design */
+    .newarrivals {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .bestsellers {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .newarrivals a{
+        color: black;
+    }
+
+    .bestsellers a{
+        color: black;
+    }
+
+    /* SHOP NOW BUTTON */
+    .shopnow {
+        font-weight: bold;
+        background-color: #E6C744;
+        padding: 1em;
+        text-decoration: none;
+        color: black;
+        width: fit-content;
+        height: fit-content;
+        padding: 10px; 
+        border: none;
+        border-radius: 4px;
+    }
+
+    /* PAY DAY SHOP NOW BUTTON */
+    .paydayshopnow{
+        font-weight: bold;
+        background-color: black;
+        color:white;
+        padding: 1em;
+        text-decoration: none;
+        width: fit-content;
+        height: fit-content;
+        padding: 10px; 
+        border: none;
+        border-radius: 4px;
+    }
+
+    /* MOBILE APP SECTION */
+    .mobileapp{
+        /* Uses flex to order banner content */
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        /* Uses grid to separate content into two columns */
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 1fr;
+    }
+
+    .mobiletext{
+        grid-column: 1;
+        grid-row: 1;
+        padding-left: 9em;
+    }
+
+    /* JOIN NOW SECTION  */
+    .joinnow {
+        background-color: #E6C744;
+        padding: 4em;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .joinnow form {
+        font-weight: bolder;
+        font-size: 18px;
+        background-color: white;
+        padding: 1em;
+        text-decoration: none;
+        border: none;
+        border-radius: 4px;
+        margin-bottom: 1em;
+        display: flex;
+    }
+
+    .emailsend {
+        background-color: black;
+        color: white;
+        padding: 1em 2em;
+        border: none;
+        border-radius: 4px;
+        font-family: 'Poppins', sans-serif;
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+    /* PAYDAY SALE NOW SECTION */
+    .paydaysale{
+        background-color: #E6C744;
+        /* Uses flex to order banner content */
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        /* Uses grid to separate content into two columns */
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 1fr;
+    }
+    .paytext{
+        grid-column: 1;
+        grid-row: 1;
+        padding-left: 9em;
+    }
+    .paytext button{
+        background-color: #eceded;
+        
+    }
+
+
+    /************* SHOP PAGE **************/
+    /* SHOP BANNER */
+    /* Background solid rectangle */
+    .shopbanner {
+        border-radius: 15px;
+        background: #eceded;
+        padding: 20px;
+        width: 100%;
+        height: 500px;
+        /* Uses flex to order banner content */
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        /* Uses grid to separate content into two columns */
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 1fr;
+    }
     
-}
-
-.footerheader {
-    flex: 1;
+    .shoptext {
+        grid-column: 1;
+        grid-row: 1;
+        padding-left: 9em;
+    }
     
-}
+    .shopbannerimg{
+        width: 100%;
+        grid-column: 2;
+        grid-row: 1; 
+    }
+
+    /* CONTACT US BUTTON */
+    .contactbtn{
+        font-weight: bold;
+        background-color: #E6C744;
+        padding: 1em;
+        text-decoration: none;
+        color: black;
+        width: fit-content;
+        height: fit-content;
+        padding: 10px; 
+        border: none;
+        border-radius: 4px;
+    }
+    /* Adds flex to make content in a single row, evenly spaced like in the figma design */
+    .hoodiesandsweaters{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .coatsandjackets{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .teesandtanks{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .yellow{
+        background-color: #E6C744;
+        padding: 0.5rem;
+        width: fit-content;
+    }
+
+    /************* CONTACT PAGE **************/
+    .contactus{
+        background-color: #E6C744;
+        padding: 4em;
+    }
+
+    .contactus h1{
+        font-size: 2em;
+    }
+
+    input[type=text], select, textarea{
+        width: 100%;
+        padding: 1em;
+        border: 4px solid #eceded;
+        border-radius: 4px;
+        box-sizing: border-box;
+        margin-top: 6px;
+        margin-bottom: 16px;
+        resize: vertical;
+        font-family: 'Poppins', sans-serif;
+        font-weight: semi-bold;
+        font-size: 16px;
+    }
+
+    .contactform label{
+        font-family: 'Poppins', sans-serif;
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+    .sendbtn {
+        background-color: white;
+        color: black;
+        padding: 1em 2em;
+        border: none;
+        border-radius: 4px;
+        font-family: 'Poppins', sans-serif;
+        font-size: 16px;
+        font-weight: bold;
+        animation: wiggle 2s linear infinite;
+    }
+    /* Second animation, using animation tag */
+    @keyframes wiggle {
+        0%, 7% {
+        transform: rotateZ(0);
+        }
+        15% {
+        transform: rotateZ(-10deg);
+        }
+        20% {
+        transform: rotateZ(10deg);
+        }
+        25% {
+        transform: rotateZ(-10deg);
+        }
+        30% {
+        transform: rotateZ(5deg);
+        }
+        35% {
+        transform: rotateZ(-5deg);
+        }
+        40%, 100% {
+        transform: rotateZ(0);
+        }
+    }
+
+    /********* FOOTER ***********/
+    footer {
+        background-color: black;
+        color: white;
+        padding: 3em;
+        display: flex;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 1fr 1fr;
+        
+    }
+    /* Styling Links */
+    footer a {
+        color: black;
+    }
+    footer ul {
+        list-style: none;
+    }
+
+    /* BACK TO TOP BUTTON */
+    /* LoVe HAte 
+    Link 
+    Visited
+    Hover 
+    Active */
+    .backtop {
+        font-weight: bold;
+        background-color: #E6C744;
+        padding: 1em;
+        text-decoration: none;
+        width: fit-content;
+        height: fit-content;
+        padding: 10px; 
+        border: none;
+        border-radius: 4px;
+    }
+
+    .left-section {
+        display: flex;
+        align-items: center;
+        
+    }
+
+    .footerheader {
+        flex: 1;
+        
+    }
 
 
-.footerlinks {
-    display: flex;
-}
+    .footerlinks {
+        display: flex;
+    }
 
-.company, .quicklinks, .legal {
-    display: flex;
-    flex-direction: column;
-}
+    .company, .quicklinks, .legal {
+        display: flex;
+        flex-direction: column;
+    }
+  }
 

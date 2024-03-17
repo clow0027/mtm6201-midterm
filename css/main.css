@@ -196,11 +196,11 @@ header a:active {
     justify-content: space-around;
 }
 
-.newarrivals p{
+.newarrivals a{
     color: black;
 }
 
-.bestsellers p{
+.bestsellers a{
     color: black;
 }
 

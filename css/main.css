@@ -57,9 +57,89 @@ a{
   }
   /* MOBILE STYLES */
     @media screen and (max-width: 768px) {
+        /* Reduced text size */
+        p, li, button {
+            font-size: 16px; 
+        }
+    
+        h1 {
+            font-size: 30px; 
+        }
+    
+        h2 {
+            font-size: 20px;
+        }
+    
+        a {
+            font-size: 16px; 
+        }
+
+        .shopnow,
+        .paydayshopnow,
+        .contactbtn,
+        .emailsend,
+        .sendbtn {
+            font-size: 16px;
+
+        }
+
         /* hide logo bar to minimize unecessary content */
         .logobar{
             display: none;
+        }
+
+        /* Styles Nav for smaller screens */
+        header {
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+        }
+        header li {
+            list-style: none;
+            display: inline-block;
+            font-weight: semi-bold;
+            padding: 0.5rem;
+        }
+        header a {
+            text-decoration: none;
+            color: white;
+            background-color: black;
+            font-weight: semi-bold;
+            padding: 0.5rem;
+        }
+    
+        header a:active {
+            transform: translateY(2px);
+            background-color: #FFD700; 
+            color: black; 
+    
+        }
+
+        /* styles buttons for ease of use on smaller screens*/
+        .shopnow,
+        .paydayshopnow,
+        .contactbtn,
+        .emailsend,
+        .sendbtn {
+            padding: 12px 24px; 
+            border-radius: 8px;
+            background-color: black; 
+            color: #FFFFFF; 
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            transition: background-color 0.3s ease; 
+        }
+
+        /* Active state */
+        .shopnow:active,
+        .paydayshopnow:active,
+        .contactbtn:active,
+        .emailsend:active,
+        .sendbtn:active {
+            transform: translateY(2px);
+            background-color: #FFD700; 
+            color: black; 
         }
 
 
